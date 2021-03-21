@@ -37,7 +37,7 @@ for k in range(1, 100):
   neigh2.append(knn_model.score(scaled_x_test, y_test))
 
 plt.plot(range(1,100), neigh2, label="scaled data")
-plt.xlabel("Neighbor of Numbers")
+plt.xlabel("Number of neighbors")
 plt.ylabel("Accuracy")
 plt.legend()
 plt.show()
